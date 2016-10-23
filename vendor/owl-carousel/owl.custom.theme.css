@@ -1,0 +1,15 @@
+.owl-buttons .owl-prev, .owl-buttons .owl-next{
+	font-size: 60px !important;
+	color: #CD0613 !important;
+	background: none !important;
+	position: absolute;
+	top: 30%;
+	padding:0 !important;
+}
+.owl-prev{
+	left: 0;
+}
+
+.owl-next{
+		right: 0;
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) { }
+
+body{
+	margin-top: 58px;
+}
+.home-section {
+  padding-top: 10px;
+}
+.mobile-menu-wrapper{
+	position: absolute;
+	top: 0;
+	z-index: 99;
+	width: 100%;
+}
