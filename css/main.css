@@ -143,6 +143,12 @@ a:hover{
     line-height: 1;
     color: #c6c6c6;
 }
+#quote{
+	  background-image: url(../img/sample/sample005.jpg);
+    background-position: left top ;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
 .quote{
     width: 100%;
     margin: 200px auto 100px;
@@ -151,7 +157,7 @@ a:hover{
     font-size: 3vw;
     position: relative;
     padding:15px;
-    background-color:rgba(255, 255, 255, 0.8)
+    background-color:rgba(255, 255, 255, 0.8);
 }
 .thumbnail .img-area{
 	width: 100%;
@@ -219,7 +225,7 @@ a:hover{
 	font-weight: bold;
 }
 .sub-footer{
-	font-size: 12px;
+	font-size: 14px;
 }
 .logo-footer{
 /*border: 5px solid #ffffff;*/

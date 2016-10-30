@@ -12,3 +12,15 @@ body{
 	z-index: 99;
 	width: 100%;
 }
+#quote{
+	font-size: 4vw;
+	background:url(../img/sample/sample005.jpg);
+	background-position: center center ;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+.quote::before, .quote::after{
+    font-size: 6vw;
+    line-height: 1;
+    color: #000000;
+}
