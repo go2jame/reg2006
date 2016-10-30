@@ -132,7 +132,7 @@ a:hover{
 	background-color: rgba(255, 255, 255, 0.8);
 }
 .quote::before{
-	content: open-quote "ปณิธาน" close-quote;
+	content: open-quote "วิสัยทัศน์" close-quote;
 	display: block;
 }
 /*.quote::after{
@@ -186,7 +186,8 @@ a:hover{
 	color: #ffffff;
 }
 #contactus a{
-	color:#fff;
+	color:#ffffff;
+
 }
 
 
@@ -247,6 +248,7 @@ a:hover{
 }
 .footer-social-link a img{
 	margin:10px;
+	width: 32px;
 }
 
 /* Nav top bar */

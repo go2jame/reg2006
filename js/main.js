@@ -17,7 +17,7 @@ $(window).scroll(function () {
     responsive:true
   });
 
-$('.main-menu a,#mobile-menu a').click(function(event) {
+$('.main-menu a,#mobile-menu a,.footer-menu a').click(function(event) {
     event.preventDefault();
     var link = this;
     $.smoothScroll({
