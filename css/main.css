@@ -145,7 +145,7 @@ a:hover{
 }
 .quote{
     width: 100%;
-    margin: 100px auto;
+    margin: 200px auto 100px;
     text-align: center;
     font-weight: bold;
     font-size: 3vw;
@@ -175,7 +175,14 @@ a:hover{
     -o-transform:scale(1.25); /* Opera */
      transform:scale(1.25);
 }
+#contactus{
+	background: rgba(29, 29, 29, 0.7);
+	color: #ffffff;
 }
+#contactus a{
+	color:#fff;
+}
+
 
 .hover-border{
   -webkit-transition: border-color .6s ease-in-out;
