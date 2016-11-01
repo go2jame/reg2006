@@ -10,6 +10,7 @@ body{
 	/*margin-top: 74px;*/
 	margin-top: 104px;
 	quotes: '\201c' '\201d';
+	position: relative;
 }
 
 a:hover{
@@ -117,7 +118,7 @@ a:hover{
 }
 
 /* HOME SECTION*/
-.about{ color:#000000; }
+
 .home-section {
 	padding-top:75px;
 	min-height: 100vh;
