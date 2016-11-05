@@ -289,6 +289,23 @@ a.roll:hover span {
     -moz-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
 }
 
+/* PAGE */
+/* Note: Try to remove the following lines to see the effect of CSS positioning */
+.affix {
+  top: 80px;
+  bottom: 85px;
+}
+.affix-bottom{
+  position: absolute
+}
+.page {
+  padding-bottom: 60px;
+}
+.page h2{
+  /*margin-top:30px;*/
+  padding-top: 60px;
+}
+
 /* About Page */
 .org-table{
   width: 100%;
