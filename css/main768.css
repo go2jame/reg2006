@@ -9,10 +9,11 @@ body{
   padding-top: 10px;
 }
 .mobile-menu-wrapper{
-	position: absolute;
+	position: fixed;
 	top: 0;
 	z-index: 99;
 	width: 100%;
+	box-shadow:2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 #quote{
 	font-size: 4vw;
@@ -25,4 +26,27 @@ body{
     font-size: 6vw;
     line-height: 1;
     color: #000000;
+}
+
+.org-table tr td{
+	display: block;
+  width: 100%;
+  word-wrap: normal;
+  white-space: nowrap;
+}
+.org-table .org-title{
+	text-align: left;
+}
+.org-table .org-name{ 	margin-bottom: 5px; }
+
+
+.page-title{
+    height: 100px;
+    text-align: center;
+    line-height: 1.6;
+    padding: 25px 0;
+}
+.page-title h1{
+   font-size: 30px;
+  color: #ed2239;
 }

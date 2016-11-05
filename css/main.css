@@ -288,3 +288,32 @@ a.roll:hover span {
     -webkit-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
     -moz-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
 }
+
+/* About Page */
+.org-table{
+  width: 100%;
+}
+.org-table .org-title{
+  width: 50%;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+
+.page-title{
+    background: url("../img/sample/sample-parallax01.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 200px;
+    text-align: center;
+    line-height: 1.6;
+    padding: 50px 0;
+}
+.page-title h1{
+   font-size: 50px;
+  color: #ed2239;
+  text-shadow: 1px 1px 0px #650610;
+}
