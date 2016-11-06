@@ -18,7 +18,10 @@ $(window).scroll(function () {
   });
 
 $('.main-menu a,#mobile-menu a,.footer-menu a, .side-menu a').click(function(event) {
+var page = window.location.pathname;
+if( page == '/' || page == '/index.html'){
     event.preventDefault();
+}
     var link = this;
     $.smoothScroll({
       scrollTarget: link.hash
