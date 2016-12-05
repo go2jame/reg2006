@@ -56,6 +56,9 @@
 	</nav>
 	<!-- ABOUT -->
 	<section id="about" class="home-section parallax-window" data-parallax="scroll" data-image-src="img/sample/sample-parallax01.jpg" >
+	<div class="visible-xs">
+		<img src="img/sample/sample-parallax01.jpg" width="100%">
+	</div>
 		<div class="container">
 			<div class="row ">
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bgwhite-8">
@@ -149,9 +152,17 @@
 						  </div>
 						  <div class="form-group">
 						    <div class="col-sm-offset-2 col-sm-10">
-						      <button type="submit" class="btn btn-default">Submit</button>
+						      <button type="submit" class="btn btn-default" id="sendmail">Submit</button>
 						    </div>
 						  </div>
+						  <script>
+						  	$(function(){
+						  		$("#sendmail").click(function(e){
+						  			e.preventDefault()
+						  			alert('กำลังจัดเตรียมระบบ\nกรุณาส่งอีเมล์มาที่ kitiphong_sag@hotmail.com');
+						  		});
+						  	});
+						  </script>
 						</form>
 					</div>
 			</div>
