@@ -17,10 +17,10 @@ body{
 }
 #quote{
 	font-size: 4vw;
-	background:url(../img/sample/sample005.jpg);
+	background:url(../img/sample/S__11223191.jpg);
 	background-position: center center ;
 	background-repeat: no-repeat;
-	background-size: auto 100%;
+	background-size: cover;
 }
 .quote::before, .quote::after{
     font-size: 6vw;
