@@ -17,7 +17,7 @@ body{
 }
 #quote{
 	font-size: 4vw;
-	background:url(../img/sample/S__11223191.jpg);
+	/*background:url(../img/sample/S__11223191.jpg);*/
 	background-position: center center ;
 	background-repeat: no-repeat;
 	background-size: cover;

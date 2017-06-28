@@ -145,7 +145,7 @@ a:hover{
     color: #c6c6c6;
 }
 #quote{
-	  background-image: url(../img/sample/S__11223191.jpg);
+	  /*background-image: url(../img/sample/S__11223191.jpg);*/
     background-position: center top ;
     background-repeat: no-repeat;
     background-size: cover;
